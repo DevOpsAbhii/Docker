@@ -6,3 +6,4 @@ RUN apt-get install -y nginx
 CMD ["echo","Image Created"]
 RUN service nginx start
 CMD ["echo","nginx started"]
+CMD ["/bin/bash"]
