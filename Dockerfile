@@ -1,5 +1,5 @@
 #Practice of Dockerfile
-FROM Ubuntu
+FROM ubuntu
 MAINTAINER AbhiShek
 RUN apt-get update
 RUN apt-get install nginx
